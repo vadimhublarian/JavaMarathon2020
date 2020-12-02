@@ -13,7 +13,7 @@ public class Task2 {
         } else {
             for (a++; a < b; a++) {
                 if ((a % 5 == 0) && (a % 10 != 0)) {
-                    System.out.printf("%d ", a);
+                    System.out.print(a + " ");
                 }
             }
         }
