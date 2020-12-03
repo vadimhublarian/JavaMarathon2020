@@ -14,5 +14,6 @@ public class Task2 {
 
             System.out.println(dividend / divisor);
         }
+        scanner.close();
     }
 }
