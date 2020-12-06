@@ -33,7 +33,7 @@ public class Teacher {
     void evaluate(Student student) {
         Random random = new Random();
         int mark = random.ints(2, 6).findFirst().getAsInt();
-        String textMark;
+        String textMark = "";
 
         switch (mark) {
             case 2:
@@ -48,8 +48,6 @@ public class Teacher {
             case 5:
                 textMark = "отлично";
                 break;
-            default:
-                textMark = "неизвестно";
         }
 
         System.out.println("Преподаватель " + this.name + " оценил студента с именем " + student.name + " по предмету "
