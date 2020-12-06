@@ -28,10 +28,7 @@ public class Player {
         if (this.stamina > 0) {
             this.stamina--;
         }
-        if (this.stamina == 0) {
-            System.out.println("Игроку нужен отдых и он уходит с поля");
-            if (countPlayers > 0) countPlayers--;
-        }
+        if (this.stamina == 0 && countPlayers > 0) countPlayers--;
     }
 
     public static void info() {
