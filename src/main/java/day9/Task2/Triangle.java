@@ -4,9 +4,9 @@ package day9.Task2;
  * Created by Vadim Khublarian on 12/9/20.
  */
 public class Triangle extends Figure {
-    double a;
-    double b;
-    double c;
+    private double a;
+    private double b;
+    private double c;
 
     public Triangle(double a, double b, double c, String color) {
         super(color);

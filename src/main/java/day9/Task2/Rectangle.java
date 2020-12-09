@@ -4,8 +4,8 @@ package day9.Task2;
  * Created by Vadim Khublarian on 12/9/20.
  */
 public class Rectangle extends Figure {
-    double width;
-    double height;
+    private double width;
+    private double height;
 
     public Rectangle(double width, double height, String color) {
         super(color);

@@ -4,7 +4,7 @@ package day9.Task1;
  * Created by Vadim Khublarian on 12/8/20.
  */
 public class Human {
-    String name;
+    private String name;
 
     public Human(String name) {
         this.name = name;

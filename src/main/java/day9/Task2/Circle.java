@@ -4,7 +4,7 @@ package day9.Task2;
  * Created by Vadim Khublarian on 12/9/20.
  */
 public class Circle extends Figure {
-    double radius;
+    private double radius;
 
     public Circle(double radius, String color) {
         super(color);

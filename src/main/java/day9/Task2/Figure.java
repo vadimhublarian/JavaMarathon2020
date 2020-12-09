@@ -4,7 +4,7 @@ package day9.Task2;
  * Created by Vadim Khublarian on 12/8/20.
  */
 public abstract class Figure {
-    String color;
+    private String color;
 
     public Figure(String color) {
         this.color = color;
