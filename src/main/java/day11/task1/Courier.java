@@ -9,8 +9,6 @@ public class Courier implements Worker{
     private Warehouse w;
 
     public Courier(Warehouse w) {
-//        this.salary = salary;
-//        this.isPayed = isPayed;
         this.w = w;
     }
 

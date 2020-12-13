@@ -22,6 +22,7 @@ public class Task1 {
         System.out.println(w1.toString());
         System.out.println(picker1.toString());
         System.out.println(courier1.toString());
+
     }
 
     static void businessProcess(Worker worker) {

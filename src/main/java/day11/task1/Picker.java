@@ -9,8 +9,6 @@ public class Picker implements Worker {
     private Warehouse w;
 
     public Picker(Warehouse w) {
-//        this.salary = salary;
-//        this.isPayed = isPayed;
         this.w = w;
     }
 

@@ -28,4 +28,5 @@ public class Warehouse {
         return "Количество собранных заказов: " + this.getCountPickedOrders() +
                 "\n" + "Количество доставленных заказов: " + this.getCountDeliveredOrders();
     }
+
 }
