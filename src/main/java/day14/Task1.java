@@ -6,7 +6,7 @@ import java.util.InvalidPropertiesFormatException;
 import java.util.Scanner;
 
 public class Task1 {
-    public static void main(String[] args) throws InvalidPropertiesFormatException {
+    public static void main(String[] args) {
         File file = new File("numbers.txt");
         printSumDigits(file);
     }
@@ -17,7 +17,7 @@ public class Task1 {
             String line = scanner.nextLine();
             String[] numbersString = line.split(" ");
 
-            if (numbersString.length != 10) throw new InvalidPropertiesFormatException("");
+            if (numbersString.length != 10) throw new InvalidPropertiesFormatException("Некорректный входной файл");
 
             int sum = 0;
             for (String number : numbersString) {
@@ -28,7 +28,7 @@ public class Task1 {
         } catch (FileNotFoundException e) {
             System.out.println("Файл не найден");
         } catch (InvalidPropertiesFormatException e) {
-            System.out.println("Некорректный входной файл");
+            System.out.println(e.getMessage());
         }
     }
 
